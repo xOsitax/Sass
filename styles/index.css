@@ -1,0 +1,83 @@
+header {
+  height: auto;
+  background-color: white;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+.nav__li {
+  list-style: none;
+}
+.nav__right-links {
+  display: flex;
+  gap: 20px;
+}
+.nav__link {
+  color: #111111;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav__link:hover {
+  color: gray;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.foot__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+.foot__li {
+  list-style: none;
+}
+.foot__right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.foot__links {
+  display: flex;
+  gap: 20px;
+}
+.foot__icons {
+  display: flex;
+  gap: 15px;
+}
+.foot__link {
+  color: #111111;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.foot__link:hover {
+  color: gray;
+}
+
+body {
+  font-family: mulish, sans-serif;
+  background-color: none;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,47 @@
+.foot {
+  display: flex;
+  justify-content: space-between; // Genesis left, everything else right
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__li {
+    list-style: none;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 40px; // Space between Projects/Contact and Icons
+  }
+
+  &__links {
+    display: flex;
+    gap: 20px; // Keeps Projects and Contact together
+  }
+
+  &__icons {
+    display: flex;
+    gap: 15px; // Adjust spacing between icons
+  }
+
+  &__link {
+    color: #111111;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+
+    &:hover {
+      color: gray;
+    }
+  }
+}

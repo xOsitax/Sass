@@ -1,0 +1,9 @@
+@use "fonts";
+
+@import "header";
+@import "footer";
+
+body {
+  font-family: fonts.$main-font;
+  background-color: none;
+}
