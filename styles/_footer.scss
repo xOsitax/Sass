@@ -1,12 +1,13 @@
 .foot {
   display: flex;
-  justify-content: space-between; // Genesis left, everything else right
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 0 20px;
 
   &__list {
     display: flex;
+    //Genesis left side
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -21,17 +22,20 @@
   &__right {
     display: flex;
     align-items: center;
-    gap: 40px; // Space between Projects/Contact and Icons
+    //adds space  between Projects/Contact/icons
+    gap: 40px;
   }
 
   &__links {
     display: flex;
-    gap: 20px; // Keeps Projects and Contact together
+    //keeeps Projects/Contact together
+    gap: 20px;
   }
 
   &__icons {
     display: flex;
-    gap: 15px; // Adjust spacing between icons
+    //adds space between icons
+    gap: 15px;
   }
 
   &__link {

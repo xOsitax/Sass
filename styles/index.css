@@ -77,6 +77,87 @@ header {
   color: gray;
 }
 
+#container {
+  width: 100%;
+  height: 80%;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+}
+
+.item {
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.one {
+  grid-row: 1/8;
+  grid-column: 1/4;
+}
+
+.two {
+  grid-row: 1/7;
+  grid-column: 4/7;
+}
+
+.three {
+  grid-row: 1/11;
+  grid-column: 7/10;
+}
+
+.four {
+  grid-row: 8/16;
+  grid-column: 1/4;
+}
+
+.five {
+  grid-row: 7/14;
+  grid-column: 4/7;
+}
+
+.six {
+  grid-row: 11/18;
+  grid-column: 7/10;
+}
+
+.seven {
+  grid-row: 16/24;
+  grid-column: 1/4;
+}
+
+.eight {
+  grid-row: 14/23;
+  grid-column: 4/7;
+}
+
+.nine {
+  grid-row: 18/27;
+  grid-column: 7/10;
+}
+
+.ten {
+  grid-row: 24/33;
+  grid-column: 1/4;
+}
+
+.eleven {
+  grid-row: 23/33;
+  grid-column: 4/7;
+}
+
+.twelve {
+  grid-row: 27/33;
+  grid-column: 7/10;
+}
+
 body {
   font-family: mulish, sans-serif;
   background-color: none;
