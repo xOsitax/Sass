@@ -1,3 +1,4 @@
+@import "main.css";
 header {
   height: auto;
   background-color: white;
@@ -161,4 +162,47 @@ header {
 body {
   font-family: mulish, sans-serif;
   background-color: none;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.awards-section {
+  padding: 20px;
+}
+
+.award-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.award-item {
+  flex: 1;
+  padding: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.award-category {
+  text-align: center;
+  flex: 1;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.separator {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 20px 0;
 }/*# sourceMappingURL=index.css.map */
