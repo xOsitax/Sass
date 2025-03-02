@@ -160,8 +160,12 @@ header {
 }
 
 body {
-  font-family: mulish, sans-serif;
+  font-family: "Mulish", serif;
   background-color: none;
+  margin: 0;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
@@ -207,6 +211,90 @@ h3 {
   margin: 20px 0;
 }
 
+.section4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.left {
+  flex: 1;
+}
+
+.p__oppacacy {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Project Section */
+.project-section {
+  width: 100%;
+}
+
+.project-list {
+  padding: 0;
+  margin: 0;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #979797;
+}
+
+.project-item {
+  flex: 1;
+  padding: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.project-category {
+  text-align: center;
+  flex: 1;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.lady {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.lady img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.img-column img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
 .contact-form {
   display: flex;
   flex-direction: row;
@@ -220,9 +308,12 @@ h3 {
   align-items: center;
   background-color: #ffffff;
   gap: 100px;
-  font-family: "Roboto Slab", serif;
   width: 100vw;
   height: auto;
+}
+
+.section4 p {
+  opacity: 0.8;
 }
 
 .left {
