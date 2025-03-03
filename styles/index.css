@@ -3,6 +3,7 @@ header {
   height: auto;
   background-color: white;
   margin: 0;
+  width: auto;
   padding: 0 20px;
 }
 
@@ -41,7 +42,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: auto;
   padding: 30px;
 }
 .foot__list {
@@ -79,7 +80,7 @@ header {
 }
 
 #container {
-  width: 100%;
+  width: auto;
   height: 80%;
   padding-bottom: 0;
   display: grid;
@@ -166,16 +167,30 @@ body {
   display: inline-block;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
 }
 
 .title-column {
   display: flex;
-  align-items: center;
-  max-width: 90%;
+  padding: 20px;
+  max-width: auto;
   justify-content: space-between;
 }
 .title-column .div {
   flex: 1;
+}
+
+.design-section {
+  width: auto;
+}
+
+.design-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  margin-bottom: 10px;
+  opacity: 0.6;
 }
 
 .title1 {
@@ -191,14 +206,34 @@ h2 .highlight {
   font-weight: bold;
 }
 
-h3 {
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+h4 {
+  padding: 20px;
+}
+
+.coming-soon {
+  opacity: 0.6;
+}
+
+.left-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  margin-bottom: 64px;
+}
+
+.right-design {
+  width: 60vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .awards-section {
   padding: 20px;
+  max-width: auto;
 }
 
 .award-row {
@@ -206,6 +241,10 @@ h3 {
   justify-content: space-between;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.row {
+  list-style: none;
 }
 
 .award-item {
@@ -242,7 +281,7 @@ h3 {
 
 .text-container {
   flex: 1;
-  max-width: 80%;
+  max-width: auto;
   justify-self: flex-start;
   padding: 20px;
   opacity: 0.8;
@@ -257,7 +296,7 @@ h3 {
 }
 
 .project-section {
-  width: 100%;
+  width: auto;
 }
 
 .project-list {
@@ -271,6 +310,7 @@ h3 {
   padding: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #979797;
+  width: 80%;
 }
 
 .project-item {
